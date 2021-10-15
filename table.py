@@ -2,9 +2,6 @@ from prettytable import PrettyTable
 from string import ascii_lowercase
 
 
-# 0555300450 Aibek baike
-
-
 def cutter(expression):
     """
     function to cut all spaces in expression string
