@@ -201,7 +201,7 @@ def boolean(main_string, list_of_acts):
     print(my_table)
 
 
-def call_main_func(have_to_solve):
+def main_func(have_to_solve):
     """function, where you can give to know the program
     how many acts, and give to know all of them apart"""
 
@@ -220,4 +220,4 @@ def call_main_func(have_to_solve):
 
 
 #  hope next line of code doesn't need to explain, hope you are not stupid so much :))
-call_main_func(have_to_solve=input("Введи полное выражение: "))
+main_func(have_to_solve=input("Введи полное выражение: "))
